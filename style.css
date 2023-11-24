@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body{
+    height: 100vh;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    flex-direction: column;
+}
+
+main{
+    width: 380px;
+    height: 300px;
+    border-radius: 2rem;
+    border: 1px solid red;
+    padding: 30px;
+}
+button{
+    width: 100%;
+    border: none;
+    color: white;
+    font-size: large;
+    padding: 0.7rem;
+    border-radius:1rem ;
+    background-color: hsl(25, 97%, 53%);
+    
+}
