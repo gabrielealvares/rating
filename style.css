@@ -37,7 +37,9 @@ p{
     height: 80px;
     margin-bottom: 10px;
 }
+
 .number{
+    
     display: flex;
     justify-content: center;
     align-items: center ;
@@ -47,6 +49,7 @@ p{
     height: 50px;
     font-size: 17px;
     border-radius: 50%;
+    
     
 }
 .number:hover{
@@ -67,4 +70,46 @@ button:hover{
     background-color:hsl(0, 0%, 100%);
     color:  hsl(25, 97%, 53%);
     cursor: pointer;
+}
+.teste{
+    background-color: hsl(214, 19%, 14%);;
+    color:hsl(0, 0%, 100%);
+    width: 340px;
+    height: 340px;
+    border-radius: 2rem;
+    font-size: 15px;
+    padding: 30px;
+}
+.agradecimento{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.imagem{
+    margin-bottom: 15px;
+}
+.pontos{
+    background-color:  hsla(217, 12%, 63%, 0.247);
+    color: hsl(25, 97%, 53%);
+    text-align: center;
+    border-radius: 20px;
+    padding: 8px;
+    width: 170px;
+}
+h1{
+    color: hsl(0, 0%, 100%) ;
+}
+.Thankyou{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 315px;
+    color:  hsl(217, 15%, 60%);
+   line-height: 22px;
+   font-size: 14px;
+ 
+
 }
