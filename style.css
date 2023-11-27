@@ -9,7 +9,7 @@ body{
     font-family: Arial, sans-serif;
     flex-direction: column;
 }
-.star{
+.star-icon{
     display: flex;
     justify-content: center;
     align-items: center ;
@@ -30,7 +30,7 @@ main{
 p{
     color:  hsl(216, 12%, 54%);
 }
-.container{
+.number-container{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -71,7 +71,7 @@ button:hover{
     color:  hsl(25, 97%, 53%);
     cursor: pointer;
 }
-.teste{
+.hidden-section{
     background-color: hsl(214, 19%, 14%);;
     color:hsl(0, 0%, 100%);
     width: 340px;
@@ -80,17 +80,17 @@ button:hover{
     font-size: 15px;
     padding: 30px;
 }
-.agradecimento{
+.Thanks{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin-top: 10px;
 }
-.imagem{
+.illustration{
     margin-bottom: 15px;
 }
-.pontos{
+.points{
     background-color:  hsla(217, 12%, 63%, 0.247);
     color: hsl(25, 97%, 53%);
     text-align: center;
@@ -101,7 +101,7 @@ button:hover{
 h1{
     color: hsl(0, 0%, 100%) ;
 }
-.Thankyou{
+.message{
     display: flex;
     justify-content: center;
     align-items: center;
