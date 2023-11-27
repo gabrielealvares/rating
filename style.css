@@ -9,6 +9,15 @@ body{
     font-family: Arial, sans-serif;
     flex-direction: column;
 }
+main{
+    background-color: hsl(214, 19%, 14%);
+    color:hsl(0, 0%, 100%);
+    width: 350px;
+    height: 340px;
+    border-radius: 2rem;
+    font-size: 15px;
+    padding: 30px;
+}
 .star-icon{
     display: flex;
     justify-content: center;
@@ -18,14 +27,8 @@ body{
     height: 50px;
     border-radius: 50%;
 }
-main{
-    background-color: hsl(214, 19%, 14%);
-    color:hsl(0, 0%, 100%);
-    width: 350px;
-    height: 340px;
-    border-radius: 2rem;
-    font-size: 15px;
-    padding: 30px;
+h1{
+    color: hsl(0, 0%, 100%) ;
 }
 p{
     color:  hsl(216, 12%, 54%);
@@ -39,7 +42,6 @@ p{
 }
 
 .number{
-    
     display: flex;
     justify-content: center;
     align-items: center ;
@@ -49,13 +51,17 @@ p{
     height: 50px;
     font-size: 17px;
     border-radius: 50%;
-    
+    transition:  background-color 0.3s ease-in-out;
+    cursor: pointer;
     
 }
+
 .number:hover{
-    background-color: hsl(25, 97%, 53%) ;
+    background-color:  hsl(216, 12%, 54%) ;
     color:hsl(0, 0%, 100%) ;
+   
 }
+
 button{
     width: 100%;
     border: none;
@@ -98,9 +104,7 @@ button:hover{
     padding: 8px;
     width: 170px;
 }
-h1{
-    color: hsl(0, 0%, 100%) ;
-}
+
 .message{
     display: flex;
     justify-content: center;
