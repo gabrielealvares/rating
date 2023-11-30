@@ -1,16 +1,23 @@
 @charset "UTF-8";
 
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@100;200;300;400;500&family=Lilita+One&family=Outfit:wght@300;400;600&family=Overpass:wght@400;700&family=Poppins:ital,wght@0,100;0,200;1,100;1,200&family=Righteous&family=Tilt+Warp&display=swap');
+
+  *{
+    margin: 0;
+    padding: 0;
+  }
 body{
     background-color:  hsl(216, 12%, 8%);
     height: 100vh;
+    max-width: 100%;
     display: flex ;
     justify-content: center;
     align-items: center;
-    font-family: Arial, sans-serif;
+    font-family: 'Overpass', sans-serif;
     flex-direction: column;
 }
 main{
-    background-color: hsl(214, 19%, 14%);
+    background-color: hsl(220, 18%, 13%);
     color:hsl(0, 0%, 100%);
     width: 350px;
     height: 340px;
@@ -23,15 +30,20 @@ main{
     justify-content: center;
     align-items: center ;
     background-color:  hsla(217, 12%, 63%, 0.101);
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
 }
 h1{
+    margin-top: 30px;
+    margin-bottom: 15px;
     color: hsl(0, 0%, 100%) ;
 }
 p{
-    color:  hsl(216, 12%, 54%);
+    font-size : 15px;
+    line-height: 22px;
+    margin-bottom: 5px;
+    color: hsl(216, 12%, 54%);
 }
 .number-container{
     display: flex;
@@ -45,11 +57,10 @@ p{
     display: flex;
     justify-content: center;
     align-items: center ;
-    background-color:  hsla(217, 12%, 63%, 0.101);
-    color:  hsl(216, 12%, 54%);
+    background-color:  hsla(217, 12%, 63%, 0.134);
+    color:  hsl(216, 14%, 58%);
     width: 50px;
     height: 50px;
-    font-size: 17px;
     border-radius: 50%;
     transition:  background-color 0.3s ease-in-out;
     cursor: pointer;
@@ -66,10 +77,12 @@ button{
     width: 100%;
     border: none;
     color: white;
-    font-size: 20px;
-    padding: 0.7rem;
-    font-weight: 20px;
-    border-radius:1rem ;
+    padding: 15px 50px 12px 50px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius:1.9rem ;
+    letter-spacing: 2px;
+    font-family: 'Overpass', sans-serif;
     background-color: hsl(25, 97%, 53%); 
 }
 button:hover{
@@ -97,11 +110,13 @@ button:hover{
     margin-bottom: 15px;
 }
 .points{
-    background-color:  hsla(217, 12%, 63%, 0.247);
-    color: hsl(25, 97%, 53%);
     text-align: center;
+    background-color:  hsla(217, 12%, 63%, 0.104);
+    color: hsl(25, 97%, 53%);
     border-radius: 20px;
-    padding: 8px;
+    margin-top: 10px;
+   padding: 5px;
+    font-family: 'Overpass', sans-serif;
     width: 170px;
 }
 
@@ -112,8 +127,19 @@ button:hover{
     flex-direction: column;
     max-width: 315px;
     color:  hsl(217, 15%, 60%);
-   line-height: 22px;
-   font-size: 14px;
+    line-height: 22px;
+    font-size: 14px;
  
 
 }
+
+@media screen and (max-width: 490px ){
+   
+    main{
+        border-radius: 1rem;
+    }
+    .hidden-section{
+      border-radius: 1rem;
+    }
+}
+

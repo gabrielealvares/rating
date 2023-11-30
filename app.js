@@ -1,4 +1,4 @@
-const numbers = document.querySelectorAll('.number')
+ const numbers = document.querySelectorAll('.number')
  const button = document.querySelector('button')
  const points = document.querySelector('.points')
  const main = document.querySelector('main')
@@ -28,7 +28,7 @@ const numbers = document.querySelectorAll('.number')
     const numberSelect = document.querySelector('.number.selected')
     if(numberSelect){
         const number = numberSelect.getAttribute('data-value')
-        points.textContent = `You selected ${number} of 5`
+        points.textContent = `You selected ${number} out of 5`
     
     }else{
         points.textContent = `selected a number first`
