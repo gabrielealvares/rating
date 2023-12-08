@@ -132,6 +132,20 @@ button:hover{
  
 
 }
+@media screen and (max-width:375px) {
+   main{
+    
+    width: 280px;
+    height: 360px;
+}
+
+    .hidden-section{
+        width: 280px;
+        height: 340px;   
+    }
+   
+}
+
 
 @media screen and (max-width: 490px ){
    

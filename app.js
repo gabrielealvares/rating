@@ -13,7 +13,7 @@
         number.addEventListener('mouseleave',()=>{
          setTimeout(()=>{
             number.style.background =''
-         },700)
+         },500)
 
         })
 
